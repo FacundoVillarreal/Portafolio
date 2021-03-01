@@ -6,9 +6,8 @@ galeria.addEventListener("click", (event) => {
   const imgModal = document.querySelector("#imagen-modal");
 
   if (imgDiv == "modal fade") {
-    imgModal.setAttribute("src", '');
+    imgModal.setAttribute("src", "");
   } else {
     imgModal.setAttribute("src", imgDiv);
   }
 });
-
